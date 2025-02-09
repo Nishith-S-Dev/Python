@@ -33,3 +33,24 @@ my_str2  = "helloMeow"
 print(my_str2)
 my_str2 = "helloDoggy"
 print(my_str2)
+
+
+another example to undestand the  internal working of the python
+
+a = [10,12,15]
+b = a
+
+print(a)
+print(b); #simple
+
+import copy
+
+x = [1,2,3]
+y = x[:]
+z = copy.copy(x)
+x[2] =12;
+
+
+
+print(y)
+print(z)
